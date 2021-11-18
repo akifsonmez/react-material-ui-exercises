@@ -1,16 +1,12 @@
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
-import Notes from './pages/Notes'
-import Create from './pages/Create'
+import TypographyExamples from './pages/TypographyExamples';
 
 function App() {
   return (
     <Router>
       <Switch>
-        <Route exact path="/">
-          <Notes />
-        </Route>
-        <Route path="/create">
-          <Create />
+        <Route exact path="/TypographyExamples">
+          <TypographyExamples />
         </Route>
       </Switch>
     </Router>
