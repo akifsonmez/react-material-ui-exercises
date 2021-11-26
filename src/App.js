@@ -1,6 +1,8 @@
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 import TypographyExamples from './examples/TypographyExamples';
 import ButtonExamples from './examples/ButtonExamples';
+import IconExamples from './examples/IconExamples';
+import Create from './pages/Create';
 
 function App() {
   return (
@@ -13,6 +15,16 @@ function App() {
       <Switch>
         <Route exact path="/ButtonExamples">
           <ButtonExamples />
+        </Route>
+      </Switch>
+      <Switch>
+        <Route exact path="/IconExamples">
+          <IconExamples />
+        </Route>
+      </Switch>
+      <Switch>
+        <Route exact path="/create">
+          <Create />
         </Route>
       </Switch>
     </Router>
