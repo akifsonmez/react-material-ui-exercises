@@ -23,7 +23,7 @@ function App() {
         </Route>
       </Switch>
       <Switch>
-        <Route exact path="/create">
+        <Route exact path="/">
           <Create />
         </Route>
       </Switch>
