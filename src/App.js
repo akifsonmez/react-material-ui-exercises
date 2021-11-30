@@ -11,18 +11,12 @@ function App() {
         <Route exact path="/TypographyExamples">
           <TypographyExamples />
         </Route>
-      </Switch>
-      <Switch>
         <Route exact path="/ButtonExamples">
           <ButtonExamples />
         </Route>
-      </Switch>
-      <Switch>
         <Route exact path="/IconExamples">
           <IconExamples />
         </Route>
-      </Switch>
-      <Switch>
         <Route exact path="/">
           <Create />
         </Route>
