@@ -2,6 +2,7 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 import TypographyExamples from './examples/TypographyExamples';
 import ButtonExamples from './examples/ButtonExamples';
 import IconExamples from './examples/IconExamples';
+import TextFieldExamples from './examples/TextFieldExamples';
 
 function App() {
   return (
@@ -15,6 +16,9 @@ function App() {
         </Route>
         <Route exact path="/IconExamples">
           <IconExamples />
+        </Route>
+        <Route exact path="/TextFieldExamples">
+          <TextFieldExamples />
         </Route>
         <Route exact path="/">
           <TypographyExamples />
