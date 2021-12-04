@@ -6,6 +6,7 @@ import TextFieldExamples from './examples/TextFieldExamples';
 import RadioButtonExamples from "./examples/RadioButtonExamples";
 import JsonServerExamples from "./examples/JsonServerExamples";
 import GridExamples from "./examples/GridExamples";
+import CardComponentExamples from "./examples/CardComponentExamples";
 
 function App() {
     return (
@@ -31,6 +32,9 @@ function App() {
                 </Route>
                 <Route exact path="/GridExamples">
                     <GridExamples/>
+                </Route>
+                <Route exact path="/CardComponentExamples">
+                    <CardComponentExamples/>
                 </Route>
                 <Route exact path="/">
                     <TypographyExamples/>
