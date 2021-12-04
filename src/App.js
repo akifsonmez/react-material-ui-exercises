@@ -4,6 +4,7 @@ import ButtonExamples from './examples/ButtonExamples';
 import IconExamples from './examples/IconExamples';
 import TextFieldExamples from './examples/TextFieldExamples';
 import RadioButtonExamples from "./examples/RadioButtonExamples";
+import JsonServerExamples from "./examples/JsonServerExamples";
 
 function App() {
     return (
@@ -23,6 +24,9 @@ function App() {
                 </Route>
                 <Route exact path="/RadioButtonExamples">
                     <RadioButtonExamples/>
+                </Route>
+                <Route exact path="/JsonServerExamples">
+                    <JsonServerExamples/>
                 </Route>
                 <Route exact path="/">
                     <TypographyExamples/>
