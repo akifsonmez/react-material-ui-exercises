@@ -1,4 +1,4 @@
-import {BrowserRouter as Router, Switch, Route} from 'react-router-dom'
+import {BrowserRouter as Router, Route, Switch} from 'react-router-dom'
 import TypographyExamples from './examples/TypographyExamples';
 import ButtonExamples from './examples/ButtonExamples';
 import IconExamples from './examples/IconExamples';
@@ -7,39 +7,42 @@ import RadioButtonExamples from "./examples/RadioButtonExamples";
 import JsonServerExamples from "./examples/JsonServerExamples";
 import GridExamples from "./examples/GridExamples";
 import CardComponentExamples from "./examples/CardComponentExamples";
+import Layout from "./components/Layout";
 
 function App() {
     return (
         <Router>
-            <Switch>
-                <Route exact path="/TypographyExamples">
-                    <TypographyExamples/>
-                </Route>
-                <Route exact path="/ButtonExamples">
-                    <ButtonExamples/>
-                </Route>
-                <Route exact path="/IconExamples">
-                    <IconExamples/>
-                </Route>
-                <Route exact path="/TextFieldExamples">
-                    <TextFieldExamples/>
-                </Route>
-                <Route exact path="/RadioButtonExamples">
-                    <RadioButtonExamples/>
-                </Route>
-                <Route exact path="/JsonServerExamples">
-                    <JsonServerExamples/>
-                </Route>
-                <Route exact path="/GridExamples">
-                    <GridExamples/>
-                </Route>
-                <Route exact path="/CardComponentExamples">
-                    <CardComponentExamples/>
-                </Route>
-                <Route exact path="/">
-                    <TypographyExamples/>
-                </Route>
-            </Switch>
+            <Layout>
+                <Switch>
+                    <Route path="/TypographyExamples">
+                        <TypographyExamples/>
+                    </Route>
+                    <Route path="/ButtonExamples">
+                        <ButtonExamples/>
+                    </Route>
+                    <Route path="/IconExamples">
+                        <IconExamples/>
+                    </Route>
+                    <Route path="/TextFieldExamples">
+                        <TextFieldExamples/>
+                    </Route>
+                    <Route path="/RadioButtonExamples">
+                        <RadioButtonExamples/>
+                    </Route>
+                    <Route path="/JsonServerExamples">
+                        <JsonServerExamples/>
+                    </Route>
+                    <Route path="/GridExamples">
+                        <GridExamples/>
+                    </Route>
+                    <Route path="/CardComponentExamples">
+                        <CardComponentExamples/>
+                    </Route>
+                    <Route exact path="/">
+                        <TypographyExamples/>
+                    </Route>
+                </Switch>
+            </Layout>
         </Router>
     );
 }
