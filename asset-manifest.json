@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/react-material-ui-exercises/static/css/main.100862a3.chunk.css",
-    "main.js": "/react-material-ui-exercises/static/js/main.58f884a8.chunk.js",
-    "main.js.map": "/react-material-ui-exercises/static/js/main.58f884a8.chunk.js.map",
+    "main.js": "/react-material-ui-exercises/static/js/main.d0c56ff1.chunk.js",
+    "main.js.map": "/react-material-ui-exercises/static/js/main.d0c56ff1.chunk.js.map",
     "runtime-main.js": "/react-material-ui-exercises/static/js/runtime-main.673a8e28.js",
     "runtime-main.js.map": "/react-material-ui-exercises/static/js/runtime-main.673a8e28.js.map",
     "static/js/2.c17bff76.chunk.js": "/react-material-ui-exercises/static/js/2.c17bff76.chunk.js",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.673a8e28.js",
     "static/js/2.c17bff76.chunk.js",
     "static/css/main.100862a3.chunk.css",
-    "static/js/main.58f884a8.chunk.js"
+    "static/js/main.d0c56ff1.chunk.js"
   ]
 }
