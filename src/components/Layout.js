@@ -29,35 +29,35 @@ const Layout = ({children}) => {
 
     const menuItems = [
         {
-            path: "/TypographyExamples",
+            path: "/react-material-ui-exercises/TypographyExamples",
             name: "TypographyExamples"
         },
         {
-            path: "/ButtonExamples",
+            path: "/react-material-ui-exercises/ButtonExamples",
             name: "ButtonExamples"
         },
         {
-            path: "/IconExamples",
+            path: "/react-material-ui-exercises/IconExamples",
             name: "IconExamples"
         },
         {
-            path: "/TextFieldExamples",
+            path: "/react-material-ui-exercises/TextFieldExamples",
             name: "TextFieldExamples"
         },
         {
-            path: "/RadioButtonExamples",
+            path: "/react-material-ui-exercises/RadioButtonExamples",
             name: "RadioButtonExamples"
         },
         {
-            path: "/JsonServerExamples",
+            path: "/react-material-ui-exercises/JsonServerExamples",
             name: "JsonServerExamples"
         },
         {
-            path: "/GridExamples",
+            path: "/react-material-ui-exercises/GridExamples",
             name: "GridExamples"
         },
         {
-            path: "/CardComponentExamples",
+            path: "/react-material-ui-exercises/CardComponentExamples",
             name: "CardComponentExamples"
         }
     ]

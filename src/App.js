@@ -14,28 +14,28 @@ function App() {
         <Router>
             <Layout>
                 <Switch>
-                    <Route path="/TypographyExamples">
+                    <Route path="/react-material-ui-exercises/TypographyExamples">
                         <TypographyExamples/>
                     </Route>
-                    <Route path="/ButtonExamples">
+                    <Route path="/react-material-ui-exercises/ButtonExamples">
                         <ButtonExamples/>
                     </Route>
-                    <Route path="/IconExamples">
+                    <Route path="/react-material-ui-exercises/IconExamples">
                         <IconExamples/>
                     </Route>
-                    <Route path="/TextFieldExamples">
+                    <Route path="/react-material-ui-exercises/TextFieldExamples">
                         <TextFieldExamples/>
                     </Route>
-                    <Route path="/RadioButtonExamples">
+                    <Route path="/react-material-ui-exercises/RadioButtonExamples">
                         <RadioButtonExamples/>
                     </Route>
-                    <Route path="/JsonServerExamples">
+                    <Route path="/react-material-ui-exercises/JsonServerExamples">
                         <JsonServerExamples/>
                     </Route>
-                    <Route path="/GridExamples">
+                    <Route path="/react-material-ui-exercises/GridExamples">
                         <GridExamples/>
                     </Route>
-                    <Route path="/CardComponentExamples">
+                    <Route path="/react-material-ui-exercises/CardComponentExamples">
                         <CardComponentExamples/>
                     </Route>
                     <Route exact path="/">
